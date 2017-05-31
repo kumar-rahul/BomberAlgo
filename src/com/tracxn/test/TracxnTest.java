@@ -5,17 +5,6 @@ import java.util.Scanner;
 
 public class TracxnTest {
 	public static void main(String[] args) {
-//		Input 1: aaabcccdee
-//		Output: bdee
-//		Explanation ->
-//		Step 1: bcccdee
-//		Step 2: bdee (Final Answer)
-//
-//		Input 2: abcdeeeeddcbfgf
-//		Output : abccbfgf
-//		Explanation ->
-//		Step 1: abcdddcbfgf
-//		Step 2: abccbfgf (Final Answer)
 		Scanner sc = new Scanner(System.in);
         String testStr = sc.next();
 		TracxnList ll = new TracxnList(testStr);
